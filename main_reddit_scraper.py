@@ -48,8 +48,7 @@ def create_reddit_object(client_id, client_secret, user_agent, username, passwor
 def main():
     # Create reddit scraper.
     # NOTE ** Change the file_name, and update your own credentials.
-    # file_name = "PUSH_TO_GITHUB/reddit_notifications/reddit_credentials.json"
-    file_name = "PUSH_TO_GITHUB/reddit_notifications/secrets.json"
+    file_name = "reddit_credentials.json"
 
     # Will return a tuple of variables, which we will unpack.
     if get_reddit_credentials(file_name):
