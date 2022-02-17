@@ -12,7 +12,7 @@ import send_email
 import json
 
 
-def get_reddit_credentials(file_name):
+def get_reddit_credentials(file_name: str):
     """Gets credentials needed to use the reddit API from a json file."""
     try:
         with open(file_name) as file_object:
