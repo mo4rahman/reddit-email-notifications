@@ -1,6 +1,6 @@
 """
 Basic Usage
-Sending html/plain text.
+Sending html/plain text to send email that includes a subject and body.
 
 Sending email from GMAIL account.
 NOTE: Make sure 2-Step Verification is turned off, and go to manage google
