@@ -53,6 +53,7 @@ def main():
 
     # Will return a tuple of variables, which we will unpack.
     if get_reddit_credentials(file_name):
+        # destructure the credentials
 
         (
             client_id,
